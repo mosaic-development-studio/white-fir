@@ -12,8 +12,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "flowtype",
-        "html"
+        "flowtype"
     ],
     "rules": {
         "no-floating-decimal": 1

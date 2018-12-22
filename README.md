@@ -1,5 +1,5 @@
-# Songbird [![Build Status](https://travis-ci.com/JacobPernell/songbird.svg?branch=master)](https://travis-ci.com/JacobPernell/songbird)
-Web-based MIDI piano roll editor for quick music sketches.
+# White Fir
+Service layer of Songbird, a web-based MIDI piano roll sketch creator.
 
 ### Basic setup
 Start the server by doing the following:
@@ -10,16 +10,11 @@ Start the server by doing the following:
 3.  `npm install`
 4.  `npm run mongo`
     * This always needs to happen before the server is run
-5.  `npm run gulp`
-    * This builds the front end
-6.  `npm run server`
+5.  `npm run server`
 
 If you'd like to use a specific port, use the `PORT` environmental variable.
 
 `PORT=5000 npm run server` or if you're using fish `env PORT=5000 npm run server`
-
-### Build
-If you want to run gulp, use `npm run gulp`.
 
 ### Linting code
 To lint, use the command `npm run lint`.  This will lint the JavaScript in your .js and .html files.  It should also lint your .scss.
@@ -28,6 +23,3 @@ To lint, use the command `npm run lint`.  This will lint the JavaScript in your 
 To create tests, make `*.test.js` files.  For example, `modal.test.js`.  `Jest` will automatically test files with the `.test.js` extension when run.
 
 To run unit tests, use the `npm run test` command.  Pass/fails should be visible on the command line.
-
-### Working on serverside code
-`nodemon` is installed and will refresh on updates to back end code.  To use `nodemon`, run `npm run nodemon`.
