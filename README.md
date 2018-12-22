@@ -17,7 +17,7 @@ If you'd like to use a specific port, use the `PORT` environmental variable.
 `PORT=5000 npm run server` or if you're using fish `env PORT=5000 npm run server`
 
 ### Linting code
-To lint, use the command `npm run lint`.  This will lint the JavaScript in your .js and .html files.  It should also lint your .scss.
+To lint, use the command `npm run lint`.
 
 ### Testing
 To create tests, make `*.test.js` files.  For example, `modal.test.js`.  `Jest` will automatically test files with the `.test.js` extension when run.
