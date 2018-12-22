@@ -1,4 +1,4 @@
-# White Fir
+# White Fir [![Build Status](https://travis-ci.com/mosaic-development-studio/white-fir.svg?branch=master)](https://travis-ci.com/mosaic-development-studio/white-fir)
 Service layer of Songbird, a web-based MIDI piano roll sketch creator.
 
 ### Basic setup
